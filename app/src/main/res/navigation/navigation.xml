@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/breakfastRecipeFragment">
+
+    <fragment
+        android:id="@+id/breakfastRecipeFragment"
+        android:name="com.example.food.fragments.BreakfastRecipeFragment"
+        android:label="fragment_breakfast_recipe"
+        tools:layout="@layout/fragment_breakfast_recipe" />
+    <fragment
+        android:id="@+id/dinnerRecipeFragment"
+        android:name="com.example.food.fragments.DinnerRecipeFragment"
+        android:label="fragment_dinner_recipe"
+        tools:layout="@layout/fragment_dinner_recipe" />
+    <fragment
+        android:id="@+id/lunchRecipeFragment"
+        android:name="com.example.food.fragments.LunchRecipeFragment"
+        android:label="fragment_lunch_recipe"
+        tools:layout="@layout/fragment_lunch_recipe" />
+</navigation>

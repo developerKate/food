@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Завтрак"
+        android:id="@+id/breakfastNav"/>
+
+    <item android:title="Обед"
+        android:id="@+id/lunchNav"/>
+
+    <item android:title="Ужин"
+        android:id="@+id/dinnerNav"/>
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Food</string>
+    <string-array name="activity_spinner_items">
+        <item>1.2 (минимальная)</item>
+        <item>1.375 (небольшая)</item>
+        <item>1.46 (средняя)</item>
+        <item>1.55 (выше среднего)</item>
+        <item>1.64 (повышенная)</item>
+        <item>1.72 (высокая)</item>
+        <item>1.9 (очень высокая)</item>
+    </string-array>
+
+    <string-array name="diet_spinner_items">
+        <item>Сбалансированная</item>
+        <item>С высоким содержание белка</item>
+        <item>С низким содержанием углеводов</item>
+        <item>С низким содержание жиров</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
